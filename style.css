@@ -1,0 +1,268 @@
+* {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  background-size: 1600px;
+}
+/* Primary stylee */
+.text-primary {
+  color: #fd6e0a;
+}
+.primary-button {
+  background-color: #fd6e0a;
+  height: 64px;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #ffffff;
+  border: none;
+  padding: 18px 35px;
+}
+.primary-width {
+  max-width: 1140px;
+  margin: auto;
+  padding: 130px 0;
+}
+.section-title {
+  color: #181818;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  /* margin: 130px 0; */
+}
+section {
+  margin-top: 130px !important;
+}
+/*  */
+/* Header Navbar stylee */
+.main-header {
+  background-color: #fff8f3;
+  background-image: url("./images/header_bg.png"), url("./images/developer.png");
+  background-repeat: no-repeat, no-repeat;
+  background-position: bottom right, left;
+  padding: 0 80px;
+}
+.header-logo {
+  color: Dark 01;
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 61.28px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 51px 230px;
+}
+nav div ul {
+  display: flex;
+  align-items: center;
+}
+nav div ul li {
+  list-style: none;
+  margin-left: 51px;
+}
+/* Banner styles */
+.banner {
+  margin: 51px 230px;
+  display: flex;
+  align-items: center;
+}
+.banner div h3 {
+  color: #474747;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 61px;
+  margin-bottom: 20px;
+}
+.banner h1 {
+  color: #181818;
+  font-weight: 700;
+  font-size: 85px;
+  line-height: 116px;
+  margin-bottom: 20px;
+}
+.banner p {
+  color: #757575;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+.contact-button {
+  border: 1px solid #fd6e0a;
+  height: 64px;
+  padding: 18px 24px;
+  background-color: #fff8f3;
+}
+/*  */
+/*  */
+
+/* About me styles */
+main {
+  /* max-width: 1140px; */
+  margin: 130px auto;
+}
+.about-section {
+  padding: 131px 156px;
+  text-align: center;
+  background-color: #fff8f3;
+  border-radius: 10px;
+}
+.about-section p {
+  padding: 30px 0;
+  color: #757575;
+  font-size: 18px;
+  line-height: 30px;
+}
+/*  info styles */
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+.title-info {
+  color: #474747;
+  font-size: 14px;
+}
+.detail-info {
+  color: #474747;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/*  */
+/*  */
+/* WHat i do styles */
+.what-i-do-section {
+  text-align: center;
+}
+.what-i-des {
+  padding: 8px 120px;
+}
+/* .what-i-title {
+  padding: 130px 0 30px 0;
+} */
+/* skills styles */
+.skill-container {
+  display: flex;
+  gap: 24px;
+  padding-top: 50px;
+}
+.skill-cards {
+  text-align-last: left;
+  width: 24%;
+  padding: 30px 30px 33px 30px;
+  background: #ffffff;
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+}
+.skill-cards img {
+  text-align: left !important;
+}
+.skill-cards h3 {
+  margin: 20px 0;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27.8px;
+}
+.skill-cards p {
+  text-align: left;
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+/*  */
+/*  */
+/* A summery of my resume all styles */
+.resume-info-container {
+  display: flex;
+  gap: 71px;
+  margin: 113px 0;
+}
+.resume-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 41px;
+  color: #474747;
+  margin-bottom: 30px;
+}
+.resume-subtitle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 34px;
+  color: #474747;
+  margin: 30px 0 10px 0;
+}
+.resume-detail {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  color: #757575;
+  margin-bottom: 20px;
+}
+.resume-detail-descrip {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #757575;
+  margin-bottom: 30px;
+}
+.button-resume {
+  margin-top: 50px;
+  text-align: center;
+}
+/*  */
+/* footer-container */
+.footer-container {
+  background-color: #fff8f3;
+}
+.footer-inner-container {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-container .section-title {
+  text-align: left;
+  margin-bottom: 28px;
+}
+.contact-detail,
+.contact-from {
+  width: 45%;
+}
+/* Form styles */
+.form .primary-button {
+  display: block;
+}
+.contact-descrip {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #474747;
+  margin-bottom: 33px;
+}
+.contact-input {
+  margin-bottom: 24px;
+  border: none;
+  background-color: #fff;
+  border-radius: 5px;
+  display: block;
+  padding: 18px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #757575;
+}
+.ci {
+  width: 461px;
+  height: 64px;
+}
+/*  */
+/*  */ ;
